@@ -30,7 +30,7 @@ export default function Login() {
     <div className="min-h-screen flex items-center justify-center bg-surface p-container-margin">
       <form onSubmit={handleAuth} className="w-full max-w-md bg-white p-8 rounded-2xl shadow-[0_8px_30px_rgba(0,122,255,0.08)] border border-surface-container slide-up-fade">
         <h1 className="font-headline-lg-mobile text-headline-lg-mobile mb-2 text-on-surface">{isSignUp ? 'Create Account' : 'Welcome back'}</h1>
-        <p className="font-body-md text-on-surface-variant mb-6">{isSignUp ? 'Start sending money effortlessly.' : 'Log in to your Stitch wallet.'}</p>
+        <p className="font-body-md text-on-surface-variant mb-6">{isSignUp ? 'Start sending money effortlessly.' : 'Log in to your Monipoint wallet.'}</p>
         
         <input className="w-full mb-4 p-3 rounded-xl border border-outline-variant bg-surface-container-lowest focus:border-primary focus:outline-none" type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
         <input className="w-full mb-6 p-3 rounded-xl border border-outline-variant bg-surface-container-lowest focus:border-primary focus:outline-none" type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />

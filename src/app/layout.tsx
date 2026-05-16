@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Stitch - P2P Money Transfer",
+  title: "Monipoint P2P - P2P Money Transfer",
   description: "Send and request money instantly.",
   manifest: "/manifest.json",
   icons: {
